@@ -22,7 +22,13 @@ export function Navbar() {
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.inner}>
         <a href="#" className={styles.logo}>
-          <img src="/logo.png" alt="Fix Movil TJ" className={styles.logoImg} />
+          <img
+            src="/logo.png"
+            alt="Fix Movil TJ"
+            className={styles.logoImg}
+            onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.nextSibling.style.display = 'flex'; }}
+          />
+          <span className={styles.logoFallback}>🔧 Fix<span className={styles.accent}>Movil</span> TJ</span>
         </a>
 
         <ul className={`${styles.links} ${open ? styles.open : ''}`}>

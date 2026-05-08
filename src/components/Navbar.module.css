@@ -35,6 +35,22 @@
   filter: drop-shadow(0 0 16px rgba(74, 222, 128, 0.7));
 }
 
+.logoFallback {
+  display: none;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.accent {
+  background: linear-gradient(135deg, #4ADE80, #22C55E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .links {
   display: flex;
   align-items: center;
