@@ -61,6 +61,17 @@
 
 .textSide { flex: 1; max-width: 580px; }
 
+.heroLogo {
+  margin-bottom: 0.5rem;
+}
+
+.heroLogoImg {
+  height: 90px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 20px rgba(74, 222, 128, 0.5));
+}
+
 .badge {
   display: inline-flex;
   align-items: center;

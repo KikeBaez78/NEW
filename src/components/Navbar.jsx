@@ -22,8 +22,7 @@ export function Navbar() {
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.inner}>
         <a href="#" className={styles.logo}>
-          <span className={styles.logoIcon}>🔧</span>
-          <span className={styles.logoText}>Fix<span className={styles.accent}>Movil</span> TJ</span>
+          <img src="/logo.png" alt="Fix Movil TJ" className={styles.logoImg} />
         </a>
 
         <ul className={`${styles.links} ${open ? styles.open : ''}`}>
@@ -47,9 +46,9 @@ export function Navbar() {
         </ul>
 
         <button className={styles.burger} onClick={() => setOpen(o => !o)} aria-label="Menú">
-          <span className={open ? styles.burgerX : ''} />
-          <span className={open ? styles.burgerX2 : ''} />
-          <span className={open ? styles.burgerX3 : ''} />
+          <span />
+          <span />
+          <span />
         </button>
       </div>
     </nav>

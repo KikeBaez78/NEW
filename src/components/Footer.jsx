@@ -5,8 +5,8 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.brand}>
-          <span className={styles.logo}>🔧 <strong>Fix<span className={styles.accent}>Movil</span> TJ</strong></span>
-          <p className={styles.tagline}>Reparación profesional de celulares en Tijuana, BC.</p>
+          <img src="/logo.png" alt="Fix Movil TJ" className={styles.logo} />
+          <p className={styles.tagline}>Reparación profesional de celulares en Tijuana, BC.<br />Desde 2017.</p>
         </div>
         <div className={styles.links}>
           <a href="#servicios">Servicios</a>
@@ -24,7 +24,7 @@ export function Footer() {
         </a>
       </div>
       <div className={styles.bottom}>
-        <p>© {new Date().getFullYear()} FixMovil TJ · Tijuana, BC, México</p>
+        <p>© {new Date().getFullYear()} Fix Movil TJ · Tijuana, BC, México · Desde 2017</p>
       </div>
     </footer>
   );

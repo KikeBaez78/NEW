@@ -108,7 +108,10 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: 'easeOut' }}
         >
-          <span className={styles.badge}>📍 Tijuana, BC · Servicio Express</span>
+          <div className={styles.heroLogo}>
+            <img src="/logo.png" alt="Fix Movil TJ" className={styles.heroLogoImg} />
+          </div>
+          <span className={styles.badge}>📍 Tijuana, BC · Desde 2017 · Servicio Express</span>
           <h1 className={styles.title}>
             Reparamos<br />
             <span className={styles.gradText}>tu celular</span><br />

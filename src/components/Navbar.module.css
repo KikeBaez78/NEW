@@ -24,21 +24,18 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: #fff;
 }
 
-.logoIcon { font-size: 1.5rem; }
+.logoImg {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(74, 222, 128, 0.4));
+  transition: filter 0.2s;
+}
 
-.logoText { letter-spacing: -0.02em; }
-
-.accent {
-  background: linear-gradient(135deg, #FF006E, #8338EC);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.logo:hover .logoImg {
+  filter: drop-shadow(0 0 14px rgba(74, 222, 128, 0.7));
 }
 
 .links {
