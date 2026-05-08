@@ -15,7 +15,7 @@ function useParticles(ref) {
     resize();
     window.addEventListener('resize', resize);
 
-    const COLORS = ['#FF006E', '#8338EC', '#3A86FF', '#ffffff', '#FFBE0B'];
+    const COLORS = ['#4ADE80', '#22C55E', '#A3E635', '#ffffff', '#86EFAC'];
     const pts = Array.from({ length: 110 }, () => ({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
@@ -35,7 +35,7 @@ function useParticles(ref) {
           const dy = pts[i].y - pts[j].y;
           const dist = Math.sqrt(dx * dx + dy * dy);
           if (dist < 130) {
-            ctx.strokeStyle = `rgba(131,56,236,${0.18 * (1 - dist / 130)})`;
+            ctx.strokeStyle = `rgba(74,222,128,${0.2 * (1 - dist / 130)})`;
             ctx.lineWidth = 0.6;
             ctx.beginPath();
             ctx.moveTo(pts[i].x, pts[i].y);

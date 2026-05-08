@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-  --bg:        #07071A;
-  --bg2:       #0D0D2B;
-  --pink:      #FF006E;
-  --purple:    #8338EC;
-  --blue:      #3A86FF;
-  --gold:      #FFBE0B;
+  --bg:        #040D07;
+  --bg2:       #071A0E;
+  --green1:    #4ADE80;
+  --green2:    #22C55E;
+  --green3:    #16A34A;
+  --lime:      #A3E635;
+  --emerald:   #34D399;
   --white:     #ffffff;
   --gray:      rgba(255,255,255,0.6);
-  --glass:     rgba(255,255,255,0.04);
-  --glass-b:   rgba(255,255,255,0.1);
-  --grad:      linear-gradient(135deg, var(--pink), var(--purple), var(--blue));
-  --grad-gold: linear-gradient(135deg, var(--gold), var(--pink));
+  --glass:     rgba(74, 222, 128, 0.04);
+  --glass-b:   rgba(74, 222, 128, 0.12);
+  --grad:      linear-gradient(135deg, #A3E635, #4ADE80, #22C55E);
+  --grad-dark: linear-gradient(135deg, #16A34A, #15803D);
   --radius:    1rem;
   --radius-lg: 1.5rem;
-  --shadow:    0 25px 60px rgba(0,0,0,0.5);
+  --shadow:    0 25px 60px rgba(0,0,0,0.6);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }

@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 import styles from './Servicios.module.css';
 
 const servicios = [
-  { icon: '📱', nombre: 'Pantalla rota', precio: 'Desde $700', desc: 'iPhone, Samsung, Xiaomi, Motorola y más. Pantalla original o compatible.', color: '#FF006E' },
-  { icon: '🔋', nombre: 'Batería', precio: 'Desde $350', desc: 'Recupera la duración de tu batería. Cambio rápido con garantía.', color: '#8338EC' },
-  { icon: '⚡', nombre: 'Puerto de carga', precio: 'Desde $400', desc: 'No carga bien tu celular? Lo reparamos en el día.', color: '#3A86FF' },
-  { icon: '📸', nombre: 'Cámara', precio: 'Desde $500', desc: 'Cámara trasera o frontal. Fotos nítidas como el primer día.', color: '#FFBE0B' },
-  { icon: '💧', nombre: 'Daño por agua', precio: 'Desde $300', desc: 'Diagnóstico incluido. Limpieza profunda y recuperación de datos.', color: '#06D6A0' },
-  { icon: '🔊', nombre: 'Bocina / Micrófono', precio: 'Desde $300', desc: 'Sin sonido o micrófono malo? Lo dejamos como nuevo.', color: '#FB5607' },
+  { icon: '📱', nombre: 'Pantalla rota', precio: 'Desde $700', desc: 'iPhone, Samsung, Xiaomi, Motorola y más. Pantalla original o compatible.', color: '#4ADE80' },
+  { icon: '🔋', nombre: 'Batería', precio: 'Desde $350', desc: 'Recupera la duración de tu batería. Cambio rápido con garantía.', color: '#22C55E' },
+  { icon: '⚡', nombre: 'Puerto de carga', precio: 'Desde $400', desc: 'No carga bien tu celular? Lo reparamos en el día.', color: '#A3E635' },
+  { icon: '📸', nombre: 'Cámara', precio: 'Desde $500', desc: 'Cámara trasera o frontal. Fotos nítidas como el primer día.', color: '#86EFAC' },
+  { icon: '💧', nombre: 'Daño por agua', precio: 'Desde $300', desc: 'Diagnóstico incluido. Limpieza profunda y recuperación de datos.', color: '#34D399' },
+  { icon: '🔊', nombre: 'Bocina / Micrófono', precio: 'Desde $300', desc: 'Sin sonido o micrófono malo? Lo dejamos como nuevo.', color: '#6EE7B7' },
 ];
 
 const container = {

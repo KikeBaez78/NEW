@@ -1,6 +1,6 @@
 .section {
   padding: 6rem 0 4rem;
-  background: #07071A;
+  background: #040D07;
   position: relative;
   overflow: hidden;
 }
@@ -9,7 +9,7 @@
   position: absolute;
   top: -100px; right: -100px;
   width: 500px; height: 500px;
-  background: radial-gradient(circle, rgba(255,0,110,0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(74,222,128,0.08) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -21,7 +21,7 @@
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #06D6A0;
+  color: #4ADE80;
   margin-bottom: 0.75rem;
 }
 
@@ -34,8 +34,8 @@
 
 /* WhatsApp card */
 .waCard {
-  background: linear-gradient(145deg, rgba(37,211,102,0.12), rgba(18,140,126,0.08));
-  border: 1px solid rgba(37,211,102,0.25);
+  background: linear-gradient(145deg, rgba(37,211,102,0.1), rgba(22,163,74,0.06));
+  border: 1px solid rgba(74, 222, 128, 0.25);
   border-radius: 1.5rem;
   padding: 2.5rem 2rem;
   display: flex;
@@ -48,11 +48,11 @@
 .waIcon {
   width: 80px; height: 80px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #25D366, #128C7E);
+  background: linear-gradient(135deg, #25D366, #16A34A);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 12px 40px rgba(37,211,102,0.3);
+  box-shadow: 0 12px 40px rgba(74, 222, 128, 0.35);
 }
 
 .waTitle { font-size: 1.5rem; font-weight: 800; }
@@ -64,15 +64,15 @@
   padding: 0.85rem 2rem;
   font-size: 1rem;
   font-weight: 700;
-  color: #fff;
-  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: #040D07;
+  background: linear-gradient(135deg, #4ADE80, #22C55E);
   border-radius: 3rem;
   width: 100%;
   justify-content: center;
   transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 8px 30px rgba(37,211,102,0.3);
+  box-shadow: 0 8px 30px rgba(74, 222, 128, 0.3);
 }
-.waBtn:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(37,211,102,0.45); }
+.waBtn:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(74, 222, 128, 0.5); }
 
 .waHint { font-size: 0.78rem; color: rgba(255,255,255,0.35); }
 
@@ -87,13 +87,13 @@
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.07);
+  background: rgba(74, 222, 128, 0.03);
+  border: 1px solid rgba(74, 222, 128, 0.1);
   border-radius: 1rem;
   padding: 1.25rem 1.5rem;
   transition: border-color 0.2s;
 }
-.infoCard:hover { border-color: rgba(255,255,255,0.15); }
+.infoCard:hover { border-color: rgba(74, 222, 128, 0.25); }
 
 .infoIcon { font-size: 1.5rem; flex-shrink: 0; margin-top: 0.1rem; }
 .infoLabel { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 0.25rem; }
@@ -101,8 +101,8 @@
 .infoSub { font-size: 0.825rem; color: rgba(255,255,255,0.45); }
 
 .brands {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.07);
+  background: rgba(74, 222, 128, 0.03);
+  border: 1px solid rgba(74, 222, 128, 0.1);
   border-radius: 1rem;
   padding: 1.25rem 1.5rem;
 }
@@ -111,11 +111,12 @@
 .brandsRow { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .brand {
   padding: 0.3rem 0.85rem;
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(74, 222, 128, 0.07);
+  border: 1px solid rgba(74, 222, 128, 0.15);
   border-radius: 2rem;
   font-size: 0.8rem;
   font-weight: 600;
+  color: #4ADE80;
 }
 
 @media (max-width: 900px) {

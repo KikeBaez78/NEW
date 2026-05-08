@@ -14,7 +14,7 @@
   z-index: 0;
 }
 
-/* gradient orbs */
+/* gradient orbs - now green */
 .orb1, .orb2, .orb3 {
   position: absolute;
   border-radius: 50%;
@@ -25,18 +25,18 @@
 }
 .orb1 {
   width: 500px; height: 500px;
-  background: rgba(255, 0, 110, 0.18);
+  background: rgba(74, 222, 128, 0.15);
   top: -100px; left: -150px;
 }
 .orb2 {
   width: 600px; height: 600px;
-  background: rgba(131, 56, 236, 0.15);
+  background: rgba(34, 197, 94, 0.1);
   bottom: -200px; right: -100px;
   animation-delay: -3s;
 }
 .orb3 {
   width: 400px; height: 400px;
-  background: rgba(58, 134, 255, 0.12);
+  background: rgba(163, 230, 53, 0.08);
   top: 40%; left: 40%;
   animation-delay: -5s;
 }
@@ -61,9 +61,7 @@
 
 .textSide { flex: 1; max-width: 580px; }
 
-.heroLogo {
-  margin-bottom: 0.5rem;
-}
+.heroLogo { margin-bottom: 1rem; }
 
 .heroLogoImg {
   height: 90px;
@@ -77,12 +75,12 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.35rem 1rem;
-  background: rgba(255, 190, 11, 0.12);
-  border: 1px solid rgba(255, 190, 11, 0.3);
+  background: rgba(74, 222, 128, 0.1);
+  border: 1px solid rgba(74, 222, 128, 0.3);
   border-radius: 2rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #FFBE0B;
+  color: #4ADE80;
   margin-bottom: 1.5rem;
 }
 
@@ -95,7 +93,7 @@
 }
 
 .gradText {
-  background: linear-gradient(135deg, #FF006E, #8338EC, #3A86FF);
+  background: linear-gradient(135deg, #A3E635, #4ADE80, #22C55E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -123,14 +121,14 @@
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
-  background: linear-gradient(135deg, #25D366, #128C7E);
+  background: linear-gradient(135deg, #25D366, #16A34A);
   border-radius: 3rem;
-  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.35);
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.4);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .btnWhatsapp:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(37, 211, 102, 0.5);
+  box-shadow: 0 12px 40px rgba(74, 222, 128, 0.5);
 }
 
 .btnOutline {
@@ -140,15 +138,15 @@
   font-size: 1rem;
   font-weight: 600;
   color: rgba(255,255,255,0.8);
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(74, 222, 128, 0.25);
   border-radius: 3rem;
   backdrop-filter: blur(10px);
   transition: border-color 0.2s, color 0.2s, background 0.2s;
 }
 .btnOutline:hover {
-  border-color: rgba(255,255,255,0.5);
-  color: #fff;
-  background: rgba(255,255,255,0.05);
+  border-color: rgba(74, 222, 128, 0.6);
+  color: #4ADE80;
+  background: rgba(74, 222, 128, 0.05);
 }
 
 .stats {
@@ -165,7 +163,7 @@
 .stat strong {
   font-size: 1.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #FF006E, #8338EC);
+  background: linear-gradient(135deg, #4ADE80, #22C55E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -180,7 +178,7 @@
 .statDiv {
   width: 1px;
   height: 2.5rem;
-  background: rgba(255,255,255,0.12);
+  background: rgba(74, 222, 128, 0.15);
 }
 
 /* Phone mockup */
@@ -193,8 +191,8 @@
 .phone {
   width: 230px;
   min-height: 460px;
-  background: linear-gradient(145deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
-  border: 1.5px solid rgba(255,255,255,0.15);
+  background: linear-gradient(145deg, rgba(74,222,128,0.06), rgba(74,222,128,0.02));
+  border: 1.5px solid rgba(74, 222, 128, 0.2);
   border-radius: 40px;
   padding: 1rem 0.8rem 1.5rem;
   display: flex;
@@ -204,9 +202,9 @@
   transform: perspective(900px) rotateY(-12deg) rotateX(4deg);
   animation: float 5s ease-in-out infinite;
   box-shadow:
-    0 0 80px rgba(131,56,236,0.25),
-    0 0 160px rgba(255,0,110,0.1),
-    inset 0 0 30px rgba(255,255,255,0.03);
+    0 0 80px rgba(74, 222, 128, 0.2),
+    0 0 160px rgba(34, 197, 94, 0.08),
+    inset 0 0 30px rgba(74, 222, 128, 0.03);
   backdrop-filter: blur(10px);
 }
 
@@ -217,7 +215,7 @@
 
 .notch {
   width: 60px; height: 10px;
-  background: rgba(255,255,255,0.12);
+  background: rgba(74, 222, 128, 0.15);
   border-radius: 10px;
   margin-bottom: 0.5rem;
 }
@@ -225,12 +223,13 @@
 .screen {
   width: 100%;
   flex: 1;
-  background: linear-gradient(145deg, #0D0D2B, #1a1040);
+  background: linear-gradient(145deg, #040D07, #071A0E);
   border-radius: 20px;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  border: 1px solid rgba(74, 222, 128, 0.1);
 }
 
 .screenHeader {
@@ -245,19 +244,19 @@
 .appName { font-size: 0.75rem; }
 
 .screenCard {
-  background: linear-gradient(135deg, rgba(255,0,110,0.2), rgba(131,56,236,0.2));
-  border: 1px solid rgba(255,255,255,0.1);
+  background: linear-gradient(135deg, rgba(74,222,128,0.15), rgba(34,197,94,0.1));
+  border: 1px solid rgba(74, 222, 128, 0.2);
   border-radius: 12px;
   padding: 0.6rem;
 }
 .screenLabel { font-size: 0.65rem; color: rgba(255,255,255,0.5); }
-.screenStatus { font-size: 0.85rem; font-weight: 700; color: #06D6A0; }
+.screenStatus { font-size: 0.85rem; font-weight: 700; color: #4ADE80; }
 
 .screenRow { padding: 0.15rem 0; }
 
 .bar {
   height: 8px;
-  background: linear-gradient(90deg, rgba(131,56,236,0.5), rgba(58,134,255,0.3));
+  background: linear-gradient(90deg, rgba(74,222,128,0.5), rgba(34,197,94,0.2));
   border-radius: 4px;
   animation: shimmer 2s ease-in-out infinite;
 }
@@ -270,7 +269,7 @@
 .screenBtn {
   margin-top: auto;
   padding: 0.45rem 0.75rem;
-  background: linear-gradient(135deg, #FF006E, #8338EC);
+  background: linear-gradient(135deg, #22C55E, #16A34A);
   border-radius: 8px;
   font-size: 0.7rem;
   font-weight: 700;
@@ -279,7 +278,7 @@
 
 .homeBtn {
   width: 40px; height: 5px;
-  background: rgba(255,255,255,0.15);
+  background: rgba(74, 222, 128, 0.2);
   border-radius: 5px;
 }
 
@@ -303,7 +302,7 @@
 .scrollLine {
   width: 1px;
   height: 40px;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.3), transparent);
+  background: linear-gradient(to bottom, rgba(74,222,128,0.4), transparent);
   animation: scrollAnim 1.5s ease-in-out infinite;
 }
 
