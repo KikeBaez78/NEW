@@ -24,15 +24,18 @@
 .logo { display: flex; align-items: center; }
 
 .logoImg {
-  height: 48px;
-  width: auto;
+  height: 44px;
+  width: 44px;
   object-fit: contain;
-  filter: drop-shadow(0 0 8px rgba(74, 222, 128, 0.4));
-  transition: filter 0.2s;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 3px;
+  box-shadow: 0 0 12px rgba(74, 222, 128, 0.4);
+  transition: box-shadow 0.2s;
 }
 
 .logo:hover .logoImg {
-  filter: drop-shadow(0 0 16px rgba(74, 222, 128, 0.7));
+  box-shadow: 0 0 20px rgba(74, 222, 128, 0.7);
 }
 
 .logoFallback {
