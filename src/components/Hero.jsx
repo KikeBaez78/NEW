@@ -120,7 +120,7 @@ export function Hero() {
           </p>
           <div className={styles.ctas}>
             <a
-              href="https://wa.me/526641234567"
+              href="https://wa.me/526641991538"
               className={styles.btnWhatsapp}
               target="_blank"
               rel="noopener noreferrer"

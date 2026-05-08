@@ -56,7 +56,7 @@ export function Contacto() {
             <h3 className={styles.waTitle}>WhatsApp</h3>
             <p className={styles.waSub}>La forma más rápida de cotizar y agendar tu reparación.</p>
             <a
-              href="https://wa.me/526641234567?text=Hola! Necesito reparar mi celular."
+              href="https://wa.me/526641991538?text=Hola! Necesito reparar mi celular."
               className={styles.waBtn}
               target="_blank"
               rel="noopener noreferrer"

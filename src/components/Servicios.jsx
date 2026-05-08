@@ -71,7 +71,7 @@ export function Servicios() {
               <div className={styles.footer}>
                 <span className={styles.precio} style={{ color: s.color }}>{s.precio} MXN</span>
                 <a
-                  href={`https://wa.me/526641234567?text=Hola! Me interesa el servicio de ${s.nombre}`}
+                  href={`https://wa.me/526641991538?text=Hola! Me interesa el servicio de ${s.nombre}`}
                   className={styles.ask}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -95,7 +95,7 @@ export function Servicios() {
             <p>Escríbenos por WhatsApp y te damos presupuesto gratis.</p>
           </div>
           <a
-            href="https://wa.me/526641234567"
+            href="https://wa.me/526641991538"
             className={styles.bannerBtn}
             target="_blank"
             rel="noopener noreferrer"
