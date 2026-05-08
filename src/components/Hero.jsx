@@ -15,7 +15,7 @@ function useParticles(ref) {
     resize();
     window.addEventListener('resize', resize);
 
-    const COLORS = ['#4ADE80', '#22C55E', '#A3E635', '#ffffff', '#86EFAC'];
+    const COLORS = ['#ffffff', '#ffffff', '#4ADE80', '#A3E635', '#86EFAC', '#22C55E'];
     const pts = Array.from({ length: 110 }, () => ({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
