@@ -1,4 +1,4 @@
-import { Navbar } from './components/Navbar.jsx';
+import { GlobalParticles } from './components/GlobalParticles.jsx';
 import { Hero } from './components/Hero.jsx';
 import { Servicios } from './components/Servicios.jsx';
 import { Galeria } from './components/Galeria.jsx';
@@ -9,7 +9,7 @@ import { Footer } from './components/Footer.jsx';
 export default function App() {
   return (
     <>
-      <Navbar />
+      <GlobalParticles />
       <Hero />
       <Servicios />
       <Galeria />

@@ -7,8 +7,8 @@ const casos = [
     id: 1,
     titulo: 'Pantalla iPhone 13',
     modelo: 'iPhone 13 Pro Max',
-    antesColor: '#1a0a0a',
-    despuesColor: '#0a1a0a',
+    antesColor: '#1a0000',
+    despuesColor: '#0a2010',
     icono: '📱',
     precio: '$850 MXN',
     tiempo: '45 min',
@@ -17,8 +17,8 @@ const casos = [
     id: 2,
     titulo: 'Batería Samsung S22',
     modelo: 'Samsung Galaxy S22',
-    antesColor: '#1a1a0a',
-    despuesColor: '#0a0a1a',
+    antesColor: '#1a0800',
+    despuesColor: '#071A0E',
     icono: '🔋',
     precio: '$420 MXN',
     tiempo: '30 min',
@@ -27,8 +27,8 @@ const casos = [
     id: 3,
     titulo: 'Puerto de carga Xiaomi',
     modelo: 'Xiaomi Redmi Note 11',
-    antesColor: '#0a0a1a',
-    despuesColor: '#1a0a1a',
+    antesColor: '#150500',
+    despuesColor: '#0a2015',
     icono: '⚡',
     precio: '$380 MXN',
     tiempo: '1 hora',
@@ -47,7 +47,7 @@ function CasoCard({ caso }) {
       <div className={styles.compareWrap}>
         <div
           className={`${styles.side} ${styles.antes}`}
-          style={{ background: `radial-gradient(circle at 40% 40%, ${caso.antesColor}, #07071A)` }}
+          style={{ background: `radial-gradient(circle at 40% 40%, ${caso.antesColor}, #040D07)` }}
         >
           <div className={styles.phoneIcon}>{caso.icono}</div>
           <div className={styles.crack}>
@@ -66,7 +66,7 @@ function CasoCard({ caso }) {
 
         <div
           className={`${styles.side} ${styles.despues}`}
-          style={{ background: `radial-gradient(circle at 60% 40%, ${caso.despuesColor}, #07071A)` }}
+          style={{ background: `radial-gradient(circle at 60% 40%, ${caso.despuesColor}, #040D07)` }}
         >
           <div className={`${styles.phoneIcon} ${styles.phoneOk}`}>{caso.icono}</div>
           <div className={styles.checkBadge}>✅</div>
@@ -82,12 +82,12 @@ function CasoCard({ caso }) {
         <div className={styles.meta}>
           <div className={styles.metaItem}>
             <span className={styles.metaLabel}>Precio</span>
-            <span className={styles.metaVal} style={{ color: '#FFBE0B' }}>{caso.precio}</span>
+            <span className={styles.metaVal} style={{ color: '#4ADE80' }}>{caso.precio}</span>
           </div>
           <div className={styles.metaDiv} />
           <div className={styles.metaItem}>
             <span className={styles.metaLabel}>Tiempo</span>
-            <span className={styles.metaVal} style={{ color: '#3A86FF' }}>{caso.tiempo}</span>
+            <span className={styles.metaVal} style={{ color: '#A3E635' }}>{caso.tiempo}</span>
           </div>
         </div>
       </div>

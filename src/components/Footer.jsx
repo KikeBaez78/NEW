@@ -5,7 +5,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.brand}>
-          <img src="/logo.png" alt="Fix Movil TJ" className={styles.logo} />
+          <span className={styles.brandName}>Fix Movil TJ</span>
           <p className={styles.tagline}>Reparación profesional de celulares en Tijuana, BC.<br />Desde 2017.</p>
         </div>
         <div className={styles.links}>
