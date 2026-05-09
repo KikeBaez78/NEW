@@ -28,15 +28,10 @@ function useScrollTransition() {
 
 export function Hero() {
   const { progress } = useScrollTransition();
-
-  const r = Math.round(255 - 251 * progress);
-  const g = Math.round(255 - 242 * progress);
-  const b = Math.round(255 - 248 * progress);
-  const bgColor = `rgb(${r},${g},${b})`;
   const isDark = progress > 0.45;
 
   return (
-    <section className={styles.hero} style={{ backgroundColor: bgColor }}>
+    <section className={styles.hero}>
       {/* Tech grid overlay */}
       <div className={styles.techGrid} style={{ opacity: Math.max(0, (progress - 0.3) / 0.7) }} />
       <div className={styles.orb1} style={{ opacity: progress * 0.8 }} />

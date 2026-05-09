@@ -25,7 +25,16 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Inter', sans-serif;
-  background: var(--bg);
+  background: linear-gradient(
+    to bottom,
+    #ffffff    0%,
+    #22C55E   18%,
+    #16A34A   28%,
+    #071A0E   55%,
+    #040D07   72%,
+    #000000  100%
+  );
+  background-attachment: scroll;
   color: var(--white);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;

@@ -1,6 +1,6 @@
 .section {
   padding: 6rem 0;
-  background: linear-gradient(to bottom, #071A0E, #040D07);
+  background: transparent;
 }
 
 .inner { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
